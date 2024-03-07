@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio_html_js</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <h1>Validaçao de numeros</h1>
-        <h2>Veja se o numero 1 e maior que o numero 2</h2>
-        <form id="validacao">
-            <input type="number" id="numero1" required placeholder="Numero 1">
-            <input type="number" id="numero2" required placeholder="Numero 2">
-            <button id="btn-validacao" type="submit">Validar</button>
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <form>
+            <input id="Tarefa" type="text" required placeholder="Nome da tarefa">
+            <button type="submit">Cadastrar</button>
         </form>
-        <p id="message"></p>
+        <table>
+            <ul>
+            </ul>
+        </table>
     </div>
-    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script src="./script.js"></script>
 </body>
 </html>
