@@ -1,26 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio plugins jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Lista de Tarefas</h1>
-        </header>
-        <form>
-            <input id="Tarefa" type="text" required placeholder="Nome da tarefa">
-            <button type="submit">Cadastrar</button>
-        </form>
-        <table>
-            <ul>
-            </ul>
-        </table>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
-    <script src="./script.js"></script>
+    <header>
+        <div class="container">
+            <h1>Formulario de Cadastro</h1>
+        </div>
+    </header>
+    <form>
+        <div class="container">
+            <form>
+                <div class="form-campo">
+                    <label for="Nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="CPF">CPF</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div class="form-campo">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+                <div class="form-campo">
+                    <label for="CEP">CEP</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
