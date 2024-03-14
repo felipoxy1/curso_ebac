@@ -1,60 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
 .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0px auto;
-}
-
-header {
-    margin-top: 250px;
-}
-
-header h1 {
-    font-size: 35px;
-    font-style: italic;
-}
-
-header h1 {
-    margin-left: 250px;
-}
-
-form {
-    margin-left: 255px;
-    width: 100% ;
-}
-
-.form-campo {
-    margin-bottom: 16px;
-    max-width: 360px;
-}
-
-.form-campo label {
-    font-weight: bold;
-    display: block;
-}
-
-.form-campo input {
-    width: 100%;
-    display: block;
-    padding: 8px;
+    margin-top: 150px;
 }
 
 button {
-    display: block;
-    width: 300px;
-    padding: 8px 0;
-    border: none;
-    background-color: #119759;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    cursor: pointer;
-    border-radius: 6px;
+    margin-top: 15px;
+    width: 100%;
 }
