@@ -13,7 +13,7 @@ function comprimeImg(){
 function comprimeJS() {
     return gulp.src('./source/scripts/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('build/sripts'))
+    .pipe(gulp.dest('build/scripts'))
 }
 
 function compilaSass() {
