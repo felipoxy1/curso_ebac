@@ -1,0 +1,25 @@
+{
+  "name": "curso_ebac",
+  "version": "1.0.0",
+  "main": "dever.js",
+  "scripts": {
+    "build": "babel src  --watch -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipoxy1/curso_ebac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipoxy1/curso_ebac/issues"
+  },
+  "homepage": "https://github.com/felipoxy1/curso_ebac#readme",
+  "description": "",
+  "browserlist": "> 0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9"
+  }
+}
