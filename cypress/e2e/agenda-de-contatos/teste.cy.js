@@ -11,4 +11,13 @@ describe('Testar site de agenda de contatos', () => {
         cy.get('input[placeholder="Telefone"]').type('141216')
         cy.get('button[class="adicionar"]').click()
     })
+
+    it('Deve editar o contato da lista', () => {
+        cy.get('.contato').first()
+        cy.get('.edit').first().click()
+        cy.get('input[placeholder="Nome"]').clear().type('Anreia')
+        cy.get('input[placeholder="E-mail"]').clear().type('anreia1@gmail.com')
+        cy.get('input[placeholder="Telefone"]').clear().type('612126')
+        cy.get('.alterar').click()
+    })
 } )
