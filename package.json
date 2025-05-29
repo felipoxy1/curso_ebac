@@ -1,0 +1,24 @@
+{
+  "name": "curso_ebac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipoxy1/curso_ebac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipoxy1/curso_ebac/issues"
+  },
+  "homepage": "https://github.com/felipoxy1/curso_ebac#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
