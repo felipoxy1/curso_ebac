@@ -13,11 +13,14 @@ describe('Testar site de agenda de contatos', () => {
     })
 
     it('Deve editar o contato da lista', () => {
-        cy.get('.contato').first()
-        cy.get('.edit').first().click()
+        cy.get('.edit').last().click()
         cy.get('input[placeholder="Nome"]').clear().type('Anreia')
         cy.get('input[placeholder="E-mail"]').clear().type('anreia1@gmail.com')
         cy.get('input[placeholder="Telefone"]').clear().type('612126')
         cy.get('.alterar').click()
+    })
+
+    it('Deve excluir o contato editado da lista', () => {
+        cy.get('.delete').last().click()
     })
 } )
